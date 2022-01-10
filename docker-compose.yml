@@ -8,8 +8,8 @@ services:
     build: .
     networks:
       - web
-    ports:
-      - "8080:80"
+    # ports:
+    #   - "8080:80"
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.${NAME}.rule=Host(`${NAME}.jrcandev.netlib.re`)"
