@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MatthysDev/dockerMatthysDucrocq#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "three": "0.136.0"
   }
 }
